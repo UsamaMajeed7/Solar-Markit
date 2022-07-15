@@ -1,0 +1,107 @@
+@import url('http://fonts.cdnfonts.com/css/encode-sans-compressed');
+
+body {
+    font-family: Encode Sans, sans-serif;
+}
+
+#input {
+    box-shadow: 1px 2px 5px #888888;
+}
+
+#green-top {
+    background-image: url(images/energy-landing-page-top.png);
+}
+
+.green-bottom {
+    background-image: url(images/energy-landing-page-bottom.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.img-style {
+    height: 750px;
+    margin-left: -150px;
+}
+
+.vl {
+    border-left: 0.5px solid #9A9D90;
+    height: 180px;
+}
+.gif-2{
+    margin-left:600px;;
+}
+
+.first-heading {
+    padding-left: 150px; padding-right: 330px;
+}
+
+#cloud {
+    background-image: url(images/cloud-solarmarkit.gif);
+    background-repeat: no-repeat;
+    background-position: -300px;
+    background-size: auto;
+}
+
+@media (min-width: 320px) {
+    .gif-1 {
+        height: 100px;
+    }
+
+    #green-top {
+        background-image: url(images/energy-landing-page-top.png);
+        height: 100px;
+    }
+    
+    .gif-2{
+        margin-left: 100px;
+    }
+
+
+}
+
+@media (min-width: 576px) {
+    .gif-1 {
+        height: 200px;
+    }
+
+    #green-top {
+        background-image: url(images/energy-landing-page-top.png);
+        height: 200px;
+        
+    }
+    .gif-2{
+        margin-left: 200px;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .gif-1 {
+        height: 300px;
+    }
+
+    #green-top {
+        background-image: url(images/energy-landing-page-top.png);
+        height: 300px;
+        
+    }
+    .gif-2{
+        margin-left: 300px;
+    }
+
+}
+@media (min-width: 992px) {
+    .gif-1 {
+        height: 400px;
+    }
+
+    #green-top {
+        background-image: url(images/energy-landing-page-top.png);
+        height: 400px;
+        
+    }
+    .gif-2{
+        margin-left: 600px;
+    }
+
+}
