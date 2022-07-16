@@ -40,8 +40,8 @@ body {
 #cloud {
     background-image: url(images/cloud-solarmarkit.gif);
     background-repeat: no-repeat;
-    background-position: -300px;
-    background-size: auto;
+    background-position: -200px 1050px;
+    background-size: 28% auto;
 }
 
 .text-heading {
@@ -76,7 +76,8 @@ body {
     }
 
     .gif-2 {
-        margin-left: 100px;
+        margin-left: 190px;
+        height: 120px;
     }
 
     .text-heading {
@@ -105,6 +106,12 @@ body {
         padding-left: 15px;
         padding-right: 0px;
     }
+    #cloud {
+        background-image: url(images/cloud-solarmarkit.gif);
+        background-repeat: no-repeat;
+        background-position: -60px 2200px;
+        background-size: 28% auto;
+    }
 
 }
 
@@ -121,6 +128,8 @@ body {
 
     .gif-2 {
         margin-left: 200px;
+        height: 150px;
+
     }
 
     .text-heading {
@@ -144,6 +153,13 @@ body {
         padding-left: 45px;
         padding-right: 0px;
     }
+    
+    #cloud {
+        background-image: url(images/cloud-solarmarkit.gif);
+        background-repeat: no-repeat;
+        background-position: -100px 2200px;
+        background-size: 28% auto;
+    }
 
 
 }
@@ -161,6 +177,7 @@ body {
 
     .gif-2 {
         margin-left: 300px;
+        height: 180px;
     }
 
     .text-heading {
@@ -185,6 +202,14 @@ body {
         padding-right: 30px;
     }
 
+    #cloud {
+        background-image: url(images/cloud-solarmarkit.gif);
+        background-repeat: no-repeat;
+        background-position: -150px 1050px;
+        background-size: 28% auto;
+    }
+    
+
 }
 
 @media (min-width: 990px) {
@@ -200,6 +225,7 @@ body {
 
     .gif-2 {
         margin-left: 600px;
+        height: 200px;
     }
 
     .text-heading {
@@ -223,4 +249,11 @@ body {
         padding-right: 110px;
     }
 
+    #cloud {
+        background-image: url(images/cloud-solarmarkit.gif);
+        background-repeat: no-repeat;
+        background-position: -200px 1050px;
+        background-size: 28% auto;
+    }
+    
 }
