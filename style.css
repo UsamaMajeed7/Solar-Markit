@@ -27,12 +27,14 @@ body {
     border-left: 0.5px solid #9A9D90;
     height: 180px;
 }
-.gif-2{
-    margin-left:600px;;
+
+.gif-2 {
+    margin-left: 600px;
 }
 
 .first-heading {
-    padding-left: 150px; padding-right: 330px;
+    margin-left: 150px;
+    margin-right: 330px;
 }
 
 #cloud {
@@ -40,6 +42,17 @@ body {
     background-repeat: no-repeat;
     background-position: -300px;
     background-size: auto;
+}
+
+.text-heading {
+    font-weight: bolder;
+    color: #024586;
+    font-size: xxx-large;
+}
+
+.first-paragraph {
+    color: #7A8B97;
+    font-weight: bold;
 }
 
 @media (min-width: 320px) {
@@ -51,11 +64,25 @@ body {
         background-image: url(images/energy-landing-page-top.png);
         height: 100px;
     }
-    
-    .gif-2{
+
+    .gif-2 {
         margin-left: 100px;
     }
 
+    .text-heading {
+        font-weight: bolder;
+        color: #024586;
+        font-size: medium;
+    }
+    .first-paragraph {
+        color: #7A8B97;
+        font-weight: bold;
+        font-size: small;
+    }
+    .first-heading {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
 }
 
@@ -67,12 +94,25 @@ body {
     #green-top {
         background-image: url(images/energy-landing-page-top.png);
         height: 200px;
-        
+
     }
-    .gif-2{
+
+    .gif-2 {
         margin-left: 200px;
     }
+
+    .text-heading {
+        font-weight: bolder;
+        color: #024586;
+        font-size: larger;
+    }
+    .first-paragraph {
+        color: #7A8B97;
+        font-weight: bold;
+        font-size: medium;
+    }
     
+
 }
 
 @media (min-width: 768px) {
@@ -83,13 +123,26 @@ body {
     #green-top {
         background-image: url(images/energy-landing-page-top.png);
         height: 300px;
-        
+
     }
-    .gif-2{
+
+    .gif-2 {
         margin-left: 300px;
     }
 
+    .text-heading {
+        font-weight: bolder;
+        color: #024586;
+        font-size: x-large;
+    }
+    .first-paragraph {
+        color: #7A8B97;
+        font-weight: bold;
+        font-size: medium;
+    }
+
 }
+
 @media (min-width: 992px) {
     .gif-1 {
         height: 400px;
@@ -98,10 +151,21 @@ body {
     #green-top {
         background-image: url(images/energy-landing-page-top.png);
         height: 400px;
-        
+
     }
-    .gif-2{
+
+    .gif-2 {
         margin-left: 600px;
+    }
+
+    .text-heading {
+        font-weight: bolder;
+        color: #024586;
+        font-size: xxx-large;
+    }
+    .first-heading {
+        margin-left: 150px;
+        margin-right: 330px;
     }
 
 }
