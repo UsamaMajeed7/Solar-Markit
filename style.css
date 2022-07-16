@@ -13,9 +13,10 @@ body {
 }
 
 .green-bottom {
-    background-image: url(images/energy-landing-page-bottom.png);
+    background-image: url(images/green-bottom.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
+
 }
 
 .img-style {
@@ -65,6 +66,16 @@ body {
     padding-right: 110px;
 }
 
+.small-screen-image-1 {
+    margin-left: -150px;
+    height: 600px;
+}
+
+.small-screen-image-2 {
+    margin-left: 50px;
+    margin-top: 300px;
+    
+}
 @media (min-width: 320px) {
     .gif-1 {
         height: 100px;
